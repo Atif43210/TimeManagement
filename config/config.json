@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "time-management-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/timeManagement/TimeManagementWebPart.js",
+          "manifest": "./src/webparts/timeManagement/TimeManagementWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TimeManagementWebPartStrings": "lib/webparts/timeManagement/loc/{locale}.js"
+  }
+}
