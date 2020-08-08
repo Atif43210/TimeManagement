@@ -21,7 +21,8 @@ export default class TimeManagementWebPart extends BaseClientSideWebPart<ITimeMa
     const element: React.ReactElement<ITimeManagementProps> = React.createElement(
       TimeManagement,
       {
-        description: this.properties.description
+        description: this.properties.description,
+        context:this.context
       }
     );
 

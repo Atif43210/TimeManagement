@@ -1,0 +1,1 @@
+{"version":3,"file":"ITimeManagementProps.d.ts","sourceRoot":"","sources":["../../../../src/webparts/timeManagement/components/ITimeManagementProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,cAAc,EAAC,MAAM,4BAA4B,CAAC;AAC1D,MAAM,WAAW,oBAAoB;IACnC,WAAW,EAAE,MAAM,CAAC;IACpB,OAAO,EAAC,cAAc,CAAA;CACvB"}
