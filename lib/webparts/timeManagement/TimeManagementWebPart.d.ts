@@ -4,7 +4,10 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 export interface ITimeManagementWebPartProps {
     description: string;
 }
+import { ISharePointHelper } from "../../Utilities/SPHelper";
 export default class TimeManagementWebPart extends BaseClientSideWebPart<ITimeManagementWebPartProps> {
+    sharepointHelper: ISharePointHelper;
+    constructor();
     render(): void;
     protected onDispose(): void;
     protected readonly dataVersion: Version;

@@ -14,15 +14,21 @@ import { ITimeManagementProps } from './components/ITimeManagementProps';
 export interface ITimeManagementWebPartProps {
   description: string;
 }
-
+import{SharePontHelper,ISharePointHelper} from "../../Utilities/SPHelper";
 export default class TimeManagementWebPart extends BaseClientSideWebPart<ITimeManagementWebPartProps> {
-
+  public sharepointHelper:ISharePointHelper;
+constructor() {
+  super();
+  
+}
   public render(): void {
+    this.sharepointHelper=new SharePontHelper(this.context);
     const element: React.ReactElement<ITimeManagementProps> = React.createElement(
       TimeManagement,
       {
         description: this.properties.description,
-        context:this.context
+        context:this.context,
+        sharepointHelper:this.sharepointHelper
       }
     );
 

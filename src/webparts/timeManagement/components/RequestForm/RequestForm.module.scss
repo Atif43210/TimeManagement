@@ -1,0 +1,12 @@
+
+:global{
+    @import 'node_modules/office-ui-fabric-react/dist/css/fabric.css';
+  }
+  @import '~office-ui-fabric-react/dist/sass/References.scss';
+.requestform{
+    
+   .heading{
+    @include ms-fontSize-xxl ;
+    text-align: center;
+   }
+}

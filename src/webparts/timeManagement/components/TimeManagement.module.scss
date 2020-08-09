@@ -1,5 +1,7 @@
 @import '~office-ui-fabric-react/dist/sass/References.scss';
-
+:global{
+  @import 'node_modules/office-ui-fabric-react/dist/css/fabric.css';
+}
 .timeManagement {
   .container {
     max-width: 700px;
@@ -10,8 +12,9 @@
   .row {
     @include ms-Grid-row;
     @include ms-fontColor-white;
-    background-color: $ms-color-themeDark;
+    background-color: $ms-color-white;
     padding: 20px;
+    
   }
 
   .column {

@@ -1,16 +1,16 @@
 /* tslint:disable */
 require("./TimeManagement.module.css");
 const styles = {
-  timeManagement: 'timeManagement_5b52de77',
-  container: 'container_5b52de77',
-  row: 'row_5b52de77',
-  column: 'column_5b52de77',
-  'ms-Grid': 'ms-Grid_5b52de77',
-  title: 'title_5b52de77',
-  subTitle: 'subTitle_5b52de77',
-  description: 'description_5b52de77',
-  button: 'button_5b52de77',
-  label: 'label_5b52de77'
+  timeManagement: 'timeManagement_abfe30d4',
+  container: 'container_abfe30d4',
+  row: 'row_abfe30d4',
+  column: 'column_abfe30d4',
+  'ms-Grid': 'ms-Grid_abfe30d4',
+  title: 'title_abfe30d4',
+  subTitle: 'subTitle_abfe30d4',
+  description: 'description_abfe30d4',
+  button: 'button_abfe30d4',
+  label: 'label_abfe30d4'
 };
 
 export default styles;
